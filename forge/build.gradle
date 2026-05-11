@@ -9,21 +9,21 @@ architectury {
 
 loom {
     forge {
-        mixinConfig "ak47-mod.mixins.json"
+        mixinConfig "mc-mod.mixins.json"
     }
     runs {
         client {
             client()
             name "Forge Client"
             runDir "run/client"
-            vmArgs "-Dneoforge.enabledGameTestNamespace=ak47-mod"
+            vmArgs "-Dneoforge.enabledGameTestNamespace=mc-mod"
             programArgs "--username", "Player1"
         }
         server {
             server()
             name "Forge Server"
             runDir "run/server"
-            vmArgs "-Dneoforge.enabledGameTestNamespace=ak47-mod"
+            vmArgs "-Dneoforge.enabledGameTestNamespace=mc-mod"
         }
     }
 }
@@ -102,7 +102,7 @@ tasks.named('processResources', ProcessResources).configure {
         forge_version: project.forge_version,
         forge_version_range: '[47,48)',
         loader_version_range: '[47,)',
-        mod_id: 'ak47-mod',
+        mod_id: 'mc-mod',
         mod_name: 'AK-47 Mod',
         mod_version: project.version,
         mod_authors: 'AK-47 Author',
@@ -150,7 +150,7 @@ sourceSets {
             // Avoid JPMS split-package: keep top-level network package only in common
         }
         resources {
-            exclude 'assets/ak47-mod/lang/*.json'
+            exclude 'assets/mc-mod/lang/*.json'
         }
     }
 }

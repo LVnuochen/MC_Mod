@@ -53,7 +53,7 @@ dependencyResolutionManagement {
 		}
 	}
 }
-rootProject.name = 'ak47-mod'
+rootProject.name = 'mc-mod'
 // 包含子项目
 include 'common'
 include 'fabric'

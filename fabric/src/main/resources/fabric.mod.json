@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ak47-mod",
+	"id": "mc-mod",
 	"version": "${version}",
 	"name": "AK-47 Mod",
 	"description": "Adds AK-47 assault rifle with automatic fire and durability-based ammo",
@@ -8,8 +8,8 @@
 		"AK-47 Author"
 	],
 	"contact": {
-		"homepage": "https://github.com/example/ak47-mod",
-		"sources": "https://github.com/example/ak47-mod"
+		"homepage": "https://github.com/example/mc-mod",
+		"sources": "https://github.com/example/mc-mod"
 	},
 	"license": "MIT",
 	"environment": "*",

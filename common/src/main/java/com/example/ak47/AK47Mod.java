@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AK47Mod {
-    public static final String MOD_ID = "ak47-mod";
+    public static final String MOD_ID = "mc-mod";
     public static final Logger LOG = LoggerFactory.getLogger(MOD_ID);
 
     public static final int FIRE_RATE_TICKS = 2;

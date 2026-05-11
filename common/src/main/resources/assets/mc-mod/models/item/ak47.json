@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "ak47-mod:item/ak47"
+        "layer0": "mc-mod:item/ak47"
     },
     "display": {
         "firstperson_righthand": {

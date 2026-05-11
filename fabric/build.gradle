@@ -98,7 +98,7 @@ sourceSets {
             // Avoid JPMS split-package with shaded common (network package) in dev runtime
         }
         resources {
-            exclude 'assets/ak47-mod/lang/*.json'
+            exclude 'assets/mc-mod/lang/*.json'
         }
     }
 }

@@ -3,7 +3,7 @@
     "minVersion": "0.8",
     "package": "com.example.ak47.forge.mixin",
     "compatibilityLevel": "JAVA_17",
-    "refmap": "ak47-mod.forge.refmap.json",
+    "refmap": "mc-mod.forge.refmap.json",
     "client": [],
     "server": [],
     "injectors": {
