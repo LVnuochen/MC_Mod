@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ak47-mod:item/ak47"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [0, 100, 0]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 100, 0]
+        }
+    }
+}

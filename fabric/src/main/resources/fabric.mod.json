@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ak47-mod",
+	"version": "${version}",
+	"name": "AK-47 Mod",
+	"description": "Adds AK-47 assault rifle with automatic fire and durability-based ammo",
+	"authors": [
+		"AK-47 Author"
+	],
+	"contact": {
+		"homepage": "https://github.com/example/ak47-mod",
+		"sources": "https://github.com/example/ak47-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ak47.fabric.FabricAK47Mod"
+		],
+		"client": [
+			"com.example.ak47.fabric.AK47ModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
